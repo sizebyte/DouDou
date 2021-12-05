@@ -1,0 +1,27 @@
+
+T30A0 000:575 SEGGER J-Link V4.90 Log File (0001ms, 0264ms total)
+T30A0 000:575 DLL Compiled: Jul 28 2014 10:35:20 (0001ms, 0264ms total)
+T30A0 000:575 Logging started @ 2021-12-05 12:29 (0001ms, 0264ms total)
+T30A0 000:576 JLINK_SetWarnOutHandler(...) (0000ms, 0264ms total)
+T30A0 000:576 JLINK_OpenEx(...)
+Firmware: J-Link V9 compiled Jun  2 2222 22:22:22
+Hardware: V9.40
+S/N: 59401308
+Feature(s): GDB, RDI, FlashBP, FlashDL, JFlash, RDDI  returns O.K. (0260ms, 0524ms total)
+T30A0 000:836 JLINK_SetErrorOutHandler(...) (0000ms, 0524ms total)
+T30A0 000:836 JLINK_ExecCommand("ProjectFile = "E:\project\ST32F103\project\SimulationClock\JLinkSettings.ini"", ...)  returns 0x00 (0000ms, 0524ms total)
+T30A0 000:838 JLINK_ExecCommand("Device = STM32F103ZE", ...)Device "STM32F103ZE" selected (512 KB flash, 64 KB RAM).  returns 0x00 (0006ms, 0530ms total)
+T30A0 000:844 JLINK_ExecCommand("DisableConnectionTimeout", ...)  returns 0x01 (0000ms, 0530ms total)
+T30A0 000:844 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0530ms total)
+T30A0 000:844 JLINK_GetDLLVersion()  returns 49000 (0000ms, 0530ms total)
+T30A0 000:844 JLINK_GetFirmwareString(...) (0000ms, 0530ms total)
+T30A0 000:852 JLINK_GetDLLVersion()  returns 49000 (0000ms, 0530ms total)
+T30A0 000:852 JLINK_GetCompileDateTime() (0000ms, 0530ms total)
+T30A0 000:854 JLINK_GetFirmwareString(...) (0000ms, 0530ms total)
+T30A0 000:858 JLINK_GetHardwareVersion()  returns 0x16F30 (0000ms, 0530ms total)
+T30A0 000:880 JLINK_TIF_Select(JLINKARM_TIF_JTAG)  returns 0x00 (0000ms, 0530ms total)
+T30A0 000:880 JLINK_SetSpeed(20000) (0001ms, 0531ms total)
+T30A0 000:881 JLINK_GetIdData(...) >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFC0A4A403FFF >0x30 JTAG>STM32Fxxxx: Cannot attach to CPU. Trying connect under reset. >0x2F8 JTAG>TotalIRLen = ?, IRPrint = 0x..FFFFFFFFFFFFFC1FFFFFFFFF >0x30 JTAG> (0111ms, 0642ms total)
+T30A0 002:750 JLINK_Close() (0000ms, 0642ms total)
+T30A0 002:750  (0000ms, 0642ms total)
+T30A0 002:750 Closed (0000ms, 0642ms total)
