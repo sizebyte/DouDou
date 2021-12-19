@@ -7,7 +7,7 @@
 #include "math.h"
 #include "includes.h"
 #include "rtc_task.h"
-
+#include "SEGGER_RTT.h"
 
 //任务优先级
 #define START_TASK_PRIO				3
@@ -49,7 +49,8 @@ int main()
 {
 	OS_ERR err;
 	CPU_SR_ALLOC();
-	
+	SEGGER_RTT_Init();
+	SEGGER_RTT_printf(0,"hello world!");	
 	SysTick_Init(72);
 	NVIC_PriorityGroupConfig(NVIC_PriorityGroup_2);  //中断优先级分组 分2组
 	LED_Init();
